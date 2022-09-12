@@ -63,7 +63,7 @@ namespace noone
             // add dbcontext to service--
 
             //get connection string
-            string connectionString = builder.Configuration.GetConnectionString("Ahmed Alaa");
+            string connectionString = builder.Configuration.GetConnectionString("Mona");
             builder.Services.AddDbContext<NoonEntities>(optionsBuilde =>
             {
                 optionsBuilde.UseSqlServer(connectionString);
